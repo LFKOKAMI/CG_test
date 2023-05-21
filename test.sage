@@ -55,9 +55,9 @@ def findD(n,d,a,len,round,deg):
         if(i == 2^deg):#the dimension is here
             break
 
-        a=x
-        b = 0
-        c = 0
+        a=x+rc[0]
+        b = rc[1]
+        c = rc[2]
 
         for r in range(round):#the number of rounds here
 
