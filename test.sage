@@ -104,7 +104,7 @@ def findD(n,d,a,len,round,deg):
         sumb = sumb + b
         sumc = sumc + c
 
-        if(suma == 0 or sumb ==0 or sumc ==0):
+        if(suma == 0 and sumb ==0 and sumc ==0):
             d = log(i+1,2).n()
             if(d>1):
                 break
