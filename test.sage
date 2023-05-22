@@ -92,7 +92,7 @@ def findD(n,d,a,len,round,deg):
            
             #case2: random matrix M
             a = linearTrans[0][0]*sum1 + linearTrans[0][1]*sum2 + linearTrans[0][2]*sum3
-            b = linearTrans[1][0]*sum1 + linearTrans[1][1]*sum2 + linearTrans[2][2]*sum3
+            b = linearTrans[1][0]*sum1 + linearTrans[1][1]*sum2 + linearTrans[1][2]*sum3
             c = linearTrans[2][0]*sum1 + linearTrans[1][1]*sum2 + linearTrans[2][2]*sum3
             
             
