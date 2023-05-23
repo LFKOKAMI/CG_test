@@ -81,9 +81,9 @@ def findD(n,d,a,len,round,deg):
 
     #------- the matrix multiplication
             #fixed matrix
-            #a = (t^2)*sum1 + 1*sum2 + (1+t^2)*sum3
+            #a = (t)*sum1 + 1*sum2 + (1+t)*sum3
             #b = 1*sum1 + 1*sum2 + 1*sum3
-            #c = (1+t^2)*sum1 + (t^2)*sum2 + 1*sum3
+            #c = (1+t)*sum1 + (t)*sum2 + 1*sum3
            
             #case2: random matrix M
             a = linearTrans[0][0]*sum1 + linearTrans[0][1]*sum2 + linearTrans[0][2]*sum3
