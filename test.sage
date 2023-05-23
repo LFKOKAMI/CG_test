@@ -48,12 +48,7 @@ def findD(n,d,a,len,round,deg):
     suma = 0
     sumb = 0
     sumc = 0
-
-    A0 = 1
-    B0 = 1
-    A1 = 1
-    B1 = 1
-
+    
     d = 0
 
     t1 = time.time()
