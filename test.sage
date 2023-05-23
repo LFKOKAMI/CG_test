@@ -80,7 +80,12 @@ def findD(n,d,a,len,round,deg):
             sum3 = co[0]*Frob1(c) + co[1]*Frob2(c) + co[2]*Frob3(c) + co[3]*Frob4(c)
 
     #------- the matrix multiplication
-            #fixed matrix
+            #fixed matrix case1
+            #a = 0*sum1 + 1*sum2 + t*sum3
+            #b = t*sum1 + 0*sum2 + 1*sum3
+            #c = 1*sum1 + t*sum2 + 0*sum3
+            
+            #fixed matrix case2
             #a = (t)*sum1 + 1*sum2 + (1+t)*sum3
             #b = 1*sum1 + 1*sum2 + 1*sum3
             #c = (1+t)*sum1 + (t)*sum2 + 1*sum3
