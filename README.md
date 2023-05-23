@@ -9,9 +9,9 @@ to
         
  In the defaut setting, we use the random matrix. If you want to use the fixed matrix, please consider to use
  
-            a = 1*sum1 + 1*sum2 + 3*sum3
+            a = (t^2)*sum1 + 1*sum2 + (1+t^2)*sum3
             b = 1*sum1 + 1*sum2 + 1*sum3
-            c = 3*sum1 + 1*sum2 + 2*sum3
+            c = (1+t^2)*sum1 + (t^2)*sum2 + 1*sum3
  
  rather than
  
