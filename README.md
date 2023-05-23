@@ -14,7 +14,7 @@ to
             b = 1*sum1 + 1*sum2 + 1*sum3
             c = (1+t)*sum1 + (t)*sum2 + 1*sum3
          
-         case 2:
+         or case 2:
             a = 0*sum1 + 1*sum2 + t*sum3
             b = t*sum1 + 0*sum2 + 1*sum3
             c = 1*sum1 + t*sum2 + 0*sum3
