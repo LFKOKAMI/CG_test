@@ -85,10 +85,10 @@ def findD(n,d,a,len,round,deg):
             sum3 = co[0]*Frob1(c) + co[1]*Frob2(c) + co[2]*Frob3(c) + co[3]*Frob4(c)
 
     #------- the matrix multiplication
-        　　# case1: matrix = [[2 1 3],[1 1 1],[3,1,2]], i.e. we use a simple matrix M
-            #a = 2*sum1 + 1*sum2 + 3*sum3
+            #fixed matrix
+            #a = (t^2)*sum1 + 1*sum2 + (1+t^2)*sum3
             #b = 1*sum1 + 1*sum2 + 1*sum3
-            #c = 3*sum1 + 1*sum2 + 2*sum3
+            #c = (1+t^2)*sum1 + (t^2)*sum2 + 1*sum3
            
             #case2: random matrix M
             a = linearTrans[0][0]*sum1 + linearTrans[0][1]*sum2 + linearTrans[0][2]*sum3
