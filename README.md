@@ -9,9 +9,15 @@ to
         
  In the defaut setting, we use the random matrix. If you want to use the fixed matrix, please consider to use
  
+         case 1:
             a = (t)*sum1 + 1*sum2 + (1+t)*sum3
             b = 1*sum1 + 1*sum2 + 1*sum3
             c = (1+t)*sum1 + (t)*sum2 + 1*sum3
+         
+         case 2:
+            a = 0*sum1 + 1*sum2 + t*sum3
+            b = t*sum1 + 0*sum2 + 1*sum3
+            c = 1*sum1 + t*sum2 + 0*sum3
  
  rather than
  
