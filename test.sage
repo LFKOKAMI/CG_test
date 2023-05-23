@@ -86,7 +86,7 @@ def findD(n,d,a,len,round,deg):
 
     #------- the matrix multiplication
         　　# case1: matrix = [[2 1 3],[1 1 1],[3,1,2]], i.e. we use a simple matrix M
-            #a = 1*sum1 + 1*sum2 + 3*sum3
+            #a = 2*sum1 + 1*sum2 + 3*sum3
             #b = 1*sum1 + 1*sum2 + 1*sum3
             #c = 3*sum1 + 1*sum2 + 2*sum3
            
